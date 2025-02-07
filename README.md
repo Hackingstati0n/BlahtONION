@@ -1,5 +1,7 @@
 # Directory Scanner
 
+![image](https://github.com/user-attachments/assets/df6997aa-f3af-4c46-a3e3-54ca12fb8a16)
+
 ## Descrição
 Este é um scanner de diretórios simples escrito em C utilizando `libcurl`. O programa baixa uma wordlist de um repositório em tempos de execução e nao armazenara nenhum arquivo pesado desnecessario dentro do HD e sim apenas lerá de um repositorio então, testa diretórios em um site especificado pelo usuário, exibindo apenas aqueles que retornam o código de status HTTP `200`.
 
@@ -50,6 +52,9 @@ Exemplo:
 3. Exibe apenas aqueles com resposta HTTP `200 OK`.
 4. Remove espaços em branco e caracteres de nova linha.
 5. Finaliza a varredura informando a conclusão.
+
+## Dicas:
+Para alterar a URL das Wordlists vá ate a linha: #121
 
 ## Autor
 Criado por **David A. Mascaro**.
